@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="stylesheet" href="styles.css"> 
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+<body>
+  <!-- MAIN CONTAINER -->
+  <main class="container">
+
+    <!--WHITE  CARD INSIDE THE CONTAINER -->
+    <div class="card">
+
+      <!-- IMAGE DIV -->
+      <div class="image">
+        <img src="./images/drawers.jpg" alt="drawer">
+      </div>
+
+      <!-- CONTENT DIV -->
+      <div class="content">
+        <h1>Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home</h1>
+          <p>Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.</p>
+
+            <!-- AUTHOR DIV -->
+            <div class="author-details">
+              <div class="author">
+                <div class="avatar">
+                  <img src="./images/avatar-michelle.jpg" alt="avatar">
+                </div>
+                <div class="details">
+                  <h2>Michelle Appleton</h2>
+                  <h3>28 Jun 2020</h3>
+                </div>
+              </div>
+              <div class="share">
+                <img class="icon" src="./images/icon-share.svg" alt="share">
+              </div>
+              
+            </div>
+      </div>
+      <!-- POPUP DIV -->
+      <div id="pop" class="popup">
+        <div class="linkdiv">
+          <ul class="links">
+            <li><span>SHARE</span></li>
+            <li><a href=""><img src="./images/icon-facebook.svg" alt=""></a></li>
+            <li><a href=""><img src="./images/icon-twitter.svg" alt=""></a></li>
+            <li><a href=""><img src="./images/icon-pinterest.svg" alt=""></a></li>
+          </ul>
+
+          <!-- MODIFICATION IN POPUP FOR MOBILE VIEW -->
+          <div class="share mobile">
+            <img class="icon mobile" src="./images/icon-share.svg" alt="share">
+          </div>
+     
+          <div class="square"></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ankush Badgujar</a>.
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
